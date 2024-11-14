@@ -1,0 +1,89 @@
+/* Account Recovery Page Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.recovery-container {
+    background: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recovery-container h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.recovery-container p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.recovery-container label {
+    display: block;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.recovery-container input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recovery-container button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recovery-container button:hover {
+    background-color: #007bff;
+}
+
+.recovery-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.recovery-container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

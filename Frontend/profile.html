@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - AlumniX</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <h1>AlumniX Profile</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a> | </a>
+            <a href="notifications.html">Notifications</a>
+            <a> | </a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-info">
+            <h2>Your Profile</h2>
+            <img src="png2.png" alt="Profile Picture" class="profile-pic">
+            <p><strong>Name:</strong> [User's Full Name]</p>
+            <p><strong>Email:</strong> [User's Email]</p>
+            <p><strong>Type:</strong> [Student/Alumni]</p>
+            <p><strong>Course:</strong> [Course Information]</p>
+            <p><strong>Graduation Year:</strong> [Graduation Year]</p>
+        </section>
+
+        <section class="profile-actions">
+            <h3>Update Your Information</h3>
+            <form action="update-profile.html" method="post">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" value="[User's Full Name]" required>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" value="[User's Course]" required>
+
+                <label for="grad-year">Graduation Year:</label>
+                <input type="text" id="grad-year" name="grad-year" value="[User's Grad Year]" required>
+
+                <label for="profile-pic">Profile Picture:</label>
+                <input type="file" id="profile-pic" name="profile-pic">
+
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AlumniX. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

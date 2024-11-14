@@ -1,0 +1,51 @@
+/* Notifications Page Styling */
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
+.notifications {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.notification {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.notification h3 {
+    color: #007bff;
+}
+
+.notification p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.notification a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.notification a:hover {
+    text-decoration: underline;
+}

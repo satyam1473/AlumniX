@@ -1,0 +1,62 @@
+/* Logout Page Styling */
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
+.logout-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.logout-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logout-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logout-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-actions button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+.logout-actions button:first-of-type:hover {
+    background-color: #0056b3;
+}
+
+.logout-actions button:last-of-type {
+    background-color: #ccc;
+}
+
+.logout-actions button:last-of-type:hover {
+    background-color: #aaa;
+}

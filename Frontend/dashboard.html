@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AlumniX</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>AlumniX Dashboard</h1>
+        <nav>
+            <a href="profile.html">Profile</a>
+            <a> | </a>
+            <a href="notifications.html">Notifications</a>
+            <a> | </a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome, [User Name]!</h2>
+            <p>Stay connected with Alumni and Students.</p>
+        </section>
+
+        <section class="posts-feed">
+            <h3>Posts Feed</h3>
+            <div class="post">
+                <h4>Post Title</h4>
+                <p>This is a sample post from the feed...</p>
+                <a href="#">Read more</a>
+            </div>
+            <!-- Additional posts can be added similarly -->
+        </section>
+
+        <section class="actions">
+            <h3>Quick Actions</h3>
+            <button onclick="window.location.href='create-post.html'">Create New Post</button>
+            <button onclick="window.location.href='search.html'">Search Posts</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AlumniX. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
